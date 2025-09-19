@@ -232,3 +232,21 @@ RETURN
 MAXX ( TopProduct, Product[Product] )
 ``
 
+## Semantic Modeling
+
+**Model Best Practice Analyzer**
+
+Code Snippet
+
+```
+import sempy_labs as labs
+
+dataset = '' # Enter the name or ID of your semantic model
+workspace = None # Enter the name or ID of the workspace in which the semantic model resides
+
+labs.run_model_bpa(dataset=dataset, workspace=workspace) #Standard BPA
+labs.run_model_bpa(dataset=dataset, workspace=workspace, extended=True) # Setting extended=True will fetch Vertipaq Analyzer statistics and use them to run advanced BPA rules against your model
+labs.run_model_bpa(dataset=dataset, workspace=workspace, export=True) # Setting export=True will export the results to a delta table in the lakehouse attached to the notebook
+labs.run_model_bpa(dataset=dataset, workspace=workspace, language="French") # Setting the 'language' parameter will dynamically translate the rules, categories and descriptions to the specified language.
+
+```
