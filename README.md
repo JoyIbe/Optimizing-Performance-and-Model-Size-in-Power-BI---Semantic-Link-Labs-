@@ -10,6 +10,8 @@ To enhance the performance and reduce the size of the Van Arsdel quarterly execu
 **Initial State:**
 The dashboard suffered from slow load times (10-15 seconds), a large model size (192 MB), and visual timeouts, leading to lost productivity and delayed decision-making.
 
+[Here](https://github.com/DonFrancis1/FabricSaturdayChallenges/blob/main/Challenge%202%20-%20%20Optimizing%20Performance%20and%20Size%20of%20Power%C2%A0BI%C2%A0model/PROJECT_DETAILS.md)
+
 **Key Actions:**
 
 - Streamlined data model and query steps.
