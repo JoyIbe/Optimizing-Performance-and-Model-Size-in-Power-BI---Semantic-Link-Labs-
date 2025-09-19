@@ -22,7 +22,9 @@ The dashboard suffered from slow load times (10-15 seconds), a large model size 
 **Results:**
 
 - Dashboard load time reduced to under 2 seconds.
+  
 - Data model size reduced from 192 MB to 20 MB, a 90% reduction.
+  
 - Performance is now stable, ensuring a seamless user experience for stakeholders.
 
 
@@ -35,7 +37,9 @@ The dashboard suffered from slow load times (10-15 seconds), a large model size 
 <img width="776" height="338" alt="Initial Model" src="https://github.com/user-attachments/assets/b6286c2b-9ca7-4d80-9415-b10793db510f" />
 
 **- Unnecessary columns:** The model contained heavy, unreferenced columns that inflated its size.
+
 **- Inefficient joins:** The relationships were not configured for optimal performance, including a problematic many-to-many relationship with bi-directional filtering.
+
 **- Automatic features:** Unused features like "Auto Date/Time" added hidden complexity.
 
 **Actions Taken:**
