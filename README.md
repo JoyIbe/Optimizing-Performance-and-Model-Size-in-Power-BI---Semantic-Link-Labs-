@@ -90,7 +90,7 @@ DAX measures were not optimized, leading to slow rendering times. For example, a
     
     - After: Visuals load in under 2 seconds.
 
-Tooling: The analysis and optimization were guided by Power BI's built-in Performance Analyzer, along with best practice recommendations from tools like DAX Studio and Bravo for Power BI.
+Tooling: The analysis and optimization were guided by Power BI's built-in Performance Analyzer, along with best practice recommendations from tools like Semantic Link Labs and Bravo for Power BI.
 
 
 
